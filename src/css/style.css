@@ -1,0 +1,21 @@
+body {
+  position: relative;
+  height: 100vh;
+  background-color: #000;
+  font-family: "Exo 2", sans-serif;
+}
+
+body::before {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/back2.jpg);
+  opacity: 0.5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}

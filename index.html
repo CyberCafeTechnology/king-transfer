@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>King Frota</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/home.css" />
+    <link rel="stylesheet" href="src/css/about.css" />
+    <link rel="stylesheet" href="src/css/carrossel.css" />
+    <link rel="stylesheet" href="src/css/footer.css" />
+    <link rel="stylesheet" href="src/css/whatsapp.css" />
+  </head>
+
+  <body>
+    <section class="home">
+      <img src="./src/images/logo-okay.svg" alt="Logo empresa" />
+      <h1>Bem-vindo à King Transfer, sua melhor escolha para fazer uma viagem.</h1>
+      <div class="video">
+        <video controls poster="./src/images/carro-4.jpeg">
+          <source src="./src/video/Mortal Kombat X _ official trailer (2015).m4a" />
+        </video>
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/sDfSwLdRAM0?si=abn0hKs7LzSakOzJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+      </div>
+      <button>Agende sua Viagem</button>
+    </section>
+
+    <section class="about">
+      <h2>"Por Que Escolher a King Transfer: Conforto, Confiabilidade e Segurança"</h2>
+      <div class="cars">
+        <p>
+          Na King Transfer, temos orgulho em oferecer uma alta qualidade de serviço para
+          todas as suas necessidades de viagem. Ao escolher o King Transfer, você está
+          escolhendo conforto, confiabilidade e segurança. Nossos veículos são modernos e
+          bem equipados para atender você e seu grupo de amigos, garantindo uma viagem
+          tranquila e agradável para todos os passageiros.
+        </p>
+        <img src="src/images/background-about.svg" alt="Carros King" />
+      </div>
+      <div class="cars">
+        <img src="src/images/back2.jpeg" alt="" />
+        <p>
+          Mas não se trata apenas dos veículos; é sobre as pessoas atrás do volante. Na
+          King Transfer, nossos motoristas são o coração do nosso serviço. Eles são
+          experientes, conhecedores, educados e muito responsáveis, dedicados a tornar seu
+          passeio memorável garantindo sua segurança e conforto durante toda a viagem. A
+          segurança é nossa principal prioridade. Nossos motoristas estão comprometidos
+          com práticas de direção responsável, proporcionando tranquilidade durante suas
+          viagens.
+        </p>
+      </div>
+    </section>
+
+    <section class="carrousel">
+      <h2>Conheça nossos carros</h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./src/images/carro-1.jpeg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./src/images/carro-2.jpeg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./src/images/carro-3.jpeg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./src/images/carro-4.jpeg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./src/images/carro-5.jpeg" alt="" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="titulo">
+        <img src="./src/images/logo-okay.svg" alt="" />
+        <p>Confiabilidade e eficiência em serviços de transporte.</p>
+      </div>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Redes Sociais:</h4>
+          <a
+            href="https://api.whatsapp.com/send?phone=555199253677&text=Oi%2C%20tudo%20bem%3F%20Quero%20agendar%20minha%20viagem"
+            >whatsapp</a
+          >
+          <a href="https://www.instagram.com/kingtransferexecutivo/" target="_blank"
+            >Instagram</a
+          >
+        </div>
+        <div class="footer-section">
+          <h4>Contato :</h4>
+          <p>Telefone: (51) 99925-3677</p>
+          <p>Email: contato@kingtransfer.com.br</p>
+        </div>
+        <div class="footer-section">
+          <h4>Links Úteis:</h4>
+          <a href="#">Sobre Nós</a> <a href="#">Serviços</a>
+          <a href="#">Política de Privacidade</a> <a href="#">Termos de Uso</a>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2024 CyberCafé. Todos os direitos reservados.</div>
+
+      <button id="back-to-top"></button>
+    </footer>
+
+    <a
+      href="https://api.whatsapp.com/send?phone=555199253677&text=Oi%2C%20tudo%20bem%3F%20Quero%20agendar%20minha%20viagem"
+      class="whatsapp"
+    >
+      <img src="./src/images/icon-wpp.svg" alt="" />
+      <p class="fale-conosco">Fale conosco</p>
+    </a>
+    <script type="module" src="src/js/index.js"></script>
+  </body>
+</html>

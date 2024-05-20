@@ -1,0 +1,44 @@
+.whatsapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 40px;
+  bottom: 40px;
+  border-radius: 8px;
+  z-index: 9999;
+  color: #000;
+}
+
+.whatsapp img {
+  cursor: pointer;
+  width: 50px;
+  margin-right: 8px;
+  padding: 3px;
+  border-start-start-radius: 40%;
+  border-start-end-radius: 40%;
+  border-end-end-radius: 40%;
+}
+
+.whatsapp .fale-conosco {
+  visibility: hidden;
+  opacity: 0;
+  background-color: #ffffffcc;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: 0.4s ease-in-out;
+}
+
+.whatsapp:hover .fale-conosco {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*! Responsive */
+@media (max-width: 560px) {
+  .whatsapp {
+    left: 15px;
+    bottom: 35px;
+  }
+}
