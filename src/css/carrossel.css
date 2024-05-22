@@ -40,7 +40,7 @@
   height: 0;
   border-style: solid;
   border-width: 20px 0 20px 20px;
-  border-color: transparent transparent transparent #0059ff;
+  border-color: transparent transparent transparent #D5AF4C;
 }
 
 .swiper-button-next::after {
@@ -54,11 +54,15 @@
   height: 0;
   border-style: solid;
   border-width: 20px 20px 20px 0;
-  border-color: transparent #0059ff transparent transparent;
+  border-color: transparent #D5AF4C transparent transparent;
 }
 
 .swiper-button-prev::after {
   content: "";
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #D5AF4C;
 }
 
 /*! Responsive */

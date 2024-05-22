@@ -2,7 +2,7 @@
   background-color: #040027;
   color: #fff;
   padding: 20px 70px;
-  text-align: left;
+  text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -14,57 +14,33 @@
 }
 
 .footer h4 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.titulo {
-  text-align: center;
-}
-
-.titulo h2 {
-  text-decoration: underline;
-  margin-bottom: 15px;
-}
-
-.titulo img {
-  max-width: 300px;
-  height: 120px;
-  object-fit: cover;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 15px;
 }
 
 .footer-content {
   display: flex;
-  gap: 15px;
+  gap: 50px;
   margin: 15px 0px;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
+.footer-content img {
+  width: 400px;
+}
+
 .footer-section {
-  margin-bottom: 20px;
   display: flex;
-  flex-direction: column;
-}
-
-.footer-section h4 {
-  color: #f0ad4e;
-}
-
-.footer-section p,
-.footer-section a {
-  color: #ccc;
-  line-height: 1.5;
+  gap: 20px;
 }
 
 .footer-section a {
-  text-decoration: none;
+  font-size: 32px;
+  margin-top: 30px;
   color: #f0ad4e;
-}
-
-.footer-section a:hover {
-  text-decoration: underline;
 }
 
 .footer-bottom {
@@ -78,7 +54,7 @@ footer button {
   height: 0;
   border-style: solid;
   border-width: 0 20px 30px 20px;
-  border-color: transparent transparent #D5AF4C transparent;
+  border-color: transparent transparent #d5af4c transparent;
   border-radius: 5px;
   position: sticky;
   bottom: 40px;
@@ -91,11 +67,18 @@ footer button {
     padding: 20px;
     margin-top: 50px;
   }
+
   .footer-content {
     display: flex;
     flex-direction: column;
     width: 100%;
+    gap: 15px;
   }
+
+  .footer-content img {
+    width: 200px;
+  }
+
   .footer-section {
     margin-bottom: 20px;
   }

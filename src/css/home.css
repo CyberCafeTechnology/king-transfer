@@ -20,17 +20,20 @@
 }
 
 .home .video {
-  max-width: 600px;
-  max-height: 400px;
+  --width : 700px;
+  --height : 393.75px;
+  width: var(--width);
+  height: var(--height);
   display: flex;
   background-color: rgba(165, 179, 179, 0);
   border-radius: 10px;
   border: 4px solid #ffffff;
   margin: 30px 0;
   overflow: hidden;
+  aspect-ratio: var(--width) / var(--height)
 }
 
-.home .video video {
+.home .video iframe {
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -40,7 +43,6 @@
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 18px;
-  /* background-color: #e0c37a; */
   background-color: #d5af4c;
   color: #000;
   transition: ease-in-out 0.6s;
@@ -58,6 +60,11 @@
 @media (max-width: 768px) {
   .home {
     padding: 0 20px 50px 20px;
+  }
+
+  .home .video {
+    --width : 300px;
+    --height : 168.75px;
   }
 
   .home h1 {
